@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Favorite Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        ol {
+            counter-reset: movie-counter;
+        }
+        ol > li {
+            margin-bottom: 20px;
+            counter-increment: movie-counter;
+        }
+        ol > li::before {
+            content: counter(movie-counter) ". ";
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: disc;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Top 5 Favorite Movies</h1>
+    <ol>
+        <li>
+            Iron Man
+            <ul>
+                <li><strong>Year Released:</strong> 2008</li>
+                <li><strong>Main Actors:</strong> Robert Downey Jr </li>
+                <li><strong>Description:</strong>When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.</li>
+
+                </li>
+            </ul>
+        </li>
+        <li>
+            Captain America The First Soldier
+
+            <ul>
+                <li><strong>Year Released:</strong> 2011</li>
+                <li><strong>Main Actors:</strong>Chris Evans, Hayley Atwell, Sebastian Stan, Hugo Weaving</li>
+                <li><strong>Description:</strong> During World War II, Steve Rogers decides to volunteer in an experiment that transforms his weak body. He must now battle a secret Nazi organisation headed by Johann Schmidt to defend his nation.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Black Panther
+            <ul>
+                <li><strong>Year Released:</strong>2018</li>
+                <li><strong>Main Actors:</strong>Chadwick Boseman</li>
+                <li><strong>Description:</strong> After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</li>
+            </ul>
+        </li>
+        <li>
+            The Avengers
+            <ul>
+                <li><strong>Year Released:</strong> 2012</li>
+                <li><strong>Main Actors:</strong>Scarlett
+
+                    Johansson, Jeremy Renner, Mark Ruffalo, Chris Evans, Chris Hemsworth, Robert Downey Jr, Tom Hiddleston</li>
+                <li><strong>Description:</strong> S.H.I.E.L.D. leader Nick Fury is compelled to launch the Avengers programme when Loki poses a threat to planet Earth. But the superheroes must learn to work together if they are to stop him in time.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Spider-Man: No Way Home
+            <ul>
+                <li><strong>Year Released:</strong> 2021</li>
+                <li><strong>Main Actors:</strong>Tom Holland, Zendaya, Marisa Tomei, Tobey Maguire, Garfield, Jacob Batalon</li>
+                <li><strong>Description:</strong>Spider-Man seeks the help of Doctor Strange to forget his exposed secret identity as Peter Parker. However, Strange's spell goes horribly wrong, leading to unwanted guests entering their universe.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
